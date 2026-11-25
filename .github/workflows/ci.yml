@@ -41,5 +41,5 @@ jobs:
           context: .
           push: true
           tags: |
-            charityutobo/flask-cicd-app:latest
-            charityutobo/flask-cicd-app:${{ github.sha }}
+            utobocharity/flask-cicd-app:latest
+            utobocharity/flask-cicd-app:${{ github.sha }}
